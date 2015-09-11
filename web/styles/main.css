@@ -1,0 +1,56 @@
+html{
+    font-family: 'Aclonica', sans-serif;
+    font-size:100%;
+}
+header img{
+    float:left;
+}
+
+header h1{
+    text-indent:25px;
+    font-size: 2em;
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px #000000;
+}
+
+header h2{
+    text-indent:25px;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 1.6em;  
+}
+
+main h1:first-letter{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+p{
+    font-size:12px;
+}
+
+a{
+    color: orange; 
+}
+
+a:hover{
+    color:green; 
+}
+
+li{
+    margin-bottom: 9px;
+}
+
+footer{
+    text-align: center;
+}
+
+.copyright{
+    font-size: 10.5px;
+}
