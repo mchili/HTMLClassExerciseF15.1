@@ -1,20 +1,35 @@
 html{
-    font-family: 'Aclonica', sans-serif;
-    font-size:100%;
+  background-image:url("../images/bats.gif");
+  background-repeat: repeat;
+}
+body{
+  background:#FFFFFF;
+  margin: auto;
+  width: 800px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 9px 20px 9px black;  
+  font-family: 'Aclonica', sans-serif;
+  font-size:100%;
+}
+header{
+    border-bottom-style: solid;
+    border-bottom-color:black;
+    background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    padding: 1.2em .9em 1.2em .9em;
 }
 header img{
     float:left;
 }
 
 header h1{
+    margin:5px;
     text-indent:25px;
     font-size: 2em;
-    color: orange;
-    font-style: italic;
-    text-shadow: 2px 2px #000000;
 }
 
 header h2{
+    margin:5px;
     text-indent:25px;
     font-size: 1.2em;
 }
@@ -46,8 +61,15 @@ a:hover{
 li{
     margin-bottom: 9px;
 }
+section {
+  margin: .8em .9em 1.0em;
+}
 
 footer{
+    padding: .5em;
+    background: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    border-top-style: solid;
+    border-top-color:black;
     text-align: center;
 }
 
