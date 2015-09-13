@@ -16,22 +16,25 @@ header{
     border-bottom-style: solid;
     border-bottom-color:black;
     background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
-    padding: 1.2em .9em 1.2em .9em;
+    padding: 1.2em 1.2em .8em .9em;
 }
 header img{
     float:left;
 }
 
 header h1{
-    margin:5px;
     text-indent:25px;
     font-size: 2em;
 }
 
 header h2{
-    margin:5px;
-    text-indent:25px;
+    text-indent:107px;
     font-size: 1.2em;
+}
+aside{
+    margin-top:1.2em;
+    width: 160px;
+    float: left;
 }
 
 h1{
@@ -45,9 +48,12 @@ main h1:first-letter{
 h2{
     font-size: 1.4em;
 }
+h3 {
+  font-size: 1.4em;
+}
 
 p{
-    font-size:12px;
+    font-size:14px;
 }
 
 a{
@@ -62,10 +68,15 @@ li{
     margin-bottom: 9px;
 }
 section {
-  margin: .8em .9em 1.0em;
+  float:right;
+  margin: .4em .9em .4em;
+  width: 600px;
 }
-
+section h3{
+    margin-bottom: .1em;
+}
 footer{
+    clear:both;
     padding: .5em;
     background: linear-gradient(45deg, black 0%, orange 25%, white 100%);
     border-top-style: solid;
