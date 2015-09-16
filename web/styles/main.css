@@ -31,11 +31,6 @@ header h2{
     text-indent:107px;
     font-size: 1.2em;
 }
-aside{
-    margin-top:1.2em;
-    width: 160px;
-    float: left;
-}
 
 h1{
     font-size: 1.6em;  
@@ -55,18 +50,86 @@ h3 {
 p{
     font-size:14px;
 }
+nav{
+    background: black;
+    height: 2em;
+}
 
-a{
-    color: orange; 
+nav ul,
+nav li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  background: black;
+  height: 2em;
+  width: 100%;
+}
+
+nav li {
+  position: relative;
+  text-align: center;
+  width: 20%;
+
+}
+
+nav li a {
+  color: white;
+  display: block;
+  line-height: 2em;
+  text-decoration: none;
+}
+nav li a.current {
+  color: orange;
+}
+.horizontalmenu li a:hover {
+  background: grey;
+  color: black;
+ padding: 0;
+}
+
+aside{
+    float: left;
+    width:160px;
+}
+aside ul,
+aside li {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+aside li {
+  margin: 0 0 .2em 1em;
+}
+aside li:first-child {
+  margin-top: 1.2em;
+}
+aside li a {
+
+  background: orange;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .25em;
+  padding-left: .75em;
+  padding-right: .2em;
+  text-decoration: none;
+}
+
+aside li a:last-child {
+  margin-bottom: 0;
 }
 
 a:hover{
     color:green; 
 }
 
-li{
-    margin-bottom: 9px;
-}
 section {
   float:right;
   margin: .4em .9em .4em;
