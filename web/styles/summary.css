@@ -1,0 +1,184 @@
+html {
+  background-image: url('../images/bats.gif');
+  background-repeat: repeat;
+  font-size: 100%;
+}
+
+body {
+  width: 800px;
+  background-color: white;
+  margin: 0 auto;
+  border: 2px solid black;
+  box-shadow: 0 9px 20px 9px black;
+  box-sizing: border-box;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 100%;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  float: left;
+  margin-right: 2em;
+}
+
+header {
+  background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+  border-bottom: 2px solid black;
+  padding: 1.7em .9em 1.7em .9em;
+}
+
+#side-nav {
+  float: left;
+  width: 160px;
+}
+
+#side-nav ul, 
+#side-nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+#side-nav li {
+  margin: 0 0 .2em 1em;
+}
+
+#side-nav li:first-child {
+  margin-top: 1.2em;
+}
+
+#side-nav li a {
+
+  background: orange;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .25em;
+  padding-left: .75em;
+  padding-right: .2em;
+  text-decoration: none;
+
+}
+
+#side-nav li a:last-child {
+  margin-bottom: 0;
+}
+
+#side-nav li a:hover {
+  color: black;
+}
+
+nav  {
+  background: black;
+  height: 2em;
+}
+
+nav ul,
+nav li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+nav ul {
+  background: black;
+  height: 2em;
+  width: 100%;
+}
+
+nav li {
+  position: relative;
+  text-align: center;
+  width: 20%;
+
+}
+
+nav li a {
+  color: white;
+  display: block;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+nav li a.current{
+    color:orange;
+}
+
+
+.horizontalmenu li a:hover {
+  background: grey;
+  color: black;
+}
+table{
+  width:60%;
+  border-collapse: collapse;
+  
+}
+caption{
+   padding-top:.2em;
+   padding-bottom: .2em;
+   text-align: center;
+   font-size:1.4em;
+}
+table thead th{
+  width: 40%;
+  text-align: left;
+  padding-bottom: .5em;
+}
+
+table tbody td{
+    padding-bottom:.5em;
+    
+}
+
+table thead th:first-child{
+    padding-left:1.2em;
+}
+table tbody th:first-child{
+    text-align:left;
+    padding-left:1.2em;
+}
+
+table tbody td:nth-child(2){
+    font-size:.9em;
+}
+table tbody td:nth-child(3){
+    font-size:.9em;
+}
+
+table thead th:last-child{
+    background:#F5DEB3;
+    text-align:right;
+}
+
+table tbody td:last-child{
+  text-align: right;
+  background: #F5DEB3;
+}
+.category {
+  vertical-align: top;
+  font-weight: bold;
+}
+
+footer {
+  clear:both;
+  padding:.7em;
+  background: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+  border-top: 2px solid black;
+}
+
+footer p{
+  font-size: 90%;
+  text-align: center;
+}
