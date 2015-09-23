@@ -1,0 +1,194 @@
+html{
+  background-image:url("../images/bats.gif");
+  background-repeat: repeat;
+  font-family: 'Aclonica', sans-serif;
+  font-size:100%;
+}
+body{
+  background:#FFFFFF;
+  margin: auto;
+  width: 800px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 9px 20px 9px black;  
+}
+
+header{
+    border-bottom-style: solid;
+    border-bottom-color:black;
+    background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    padding: 1.2em 1.2em 2.2em .9em;
+}
+header img{
+    float:left;
+}
+
+header h1{
+    text-indent:25px;
+    font-size: 2em;
+}
+
+header h2{
+    text-indent:25px;
+    font-size: 1.2em;
+}
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-size: 1.6em;  
+}
+
+nav{
+    background: black;
+    height: 2em;
+}
+
+nav ul,
+nav li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  background: black;
+  height: 2em;
+  width: 100%;
+}
+
+nav li {
+  position: relative;
+  text-align: center;
+  width: 20%;
+
+}
+
+nav li a {
+  color: white;
+  display: block;
+  line-height: 2em;
+  text-decoration: none;
+}
+nav li a.current {
+  color: orange;
+}
+.horizontalmenu li a:hover {
+  background: grey;
+  color: black;
+ padding: 0;
+}
+
+aside{
+    float: left;
+    width:160px;
+}
+aside ul,
+aside li {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+aside li {
+  margin: 0 0 .2em 1em;
+}
+aside li:first-child {
+  margin-top: 1.5em;
+}
+aside li:last-child {
+  margin-bottom: 1.5em;
+}
+aside li a {
+
+  background: orange;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .25em;
+  padding-left: .75em;
+  padding-right: .2em;
+  text-decoration: none;
+}
+
+aside li a:last-child {
+  margin-bottom: 0;
+}
+
+a:hover{
+    color:green; 
+}
+
+section {
+  float:right;
+  margin: .4em .9em .4em;
+  width: 600px;
+}
+section h1 {
+  margin-top:.6em;
+  margin-left: .5em;
+  padding-left: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+form{
+   margin-top: .7em; 
+   margin-bottom: .7em;
+}
+
+label {
+  float:left;
+  width: 7em;
+  text-align: right;
+  margin-right:.6em;
+}
+
+#first_name, 
+#last_name,
+#email,
+#zip-code{
+  border: 1px solid black;
+  margin-bottom: .5em;
+  width: 30em;
+  height:1.5em;
+  margin-right:13em;
+}
+input #zip-code{
+    font-size: 20px;
+}
+
+input:focus {
+  background: lightgrey;
+  border: 3px solid black;
+}
+
+#subscribe {
+  background: orange;
+  border: 1px solid black;
+  padding: .2em 1em;
+  margin-left: 7.5em;
+  margin-top:.6em;
+  font-size:16px;
+}
+form br {
+  clear: both;
+}
+
+footer{
+    clear:both;
+    padding: .5em;
+    background: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    border-top-style: solid;
+    border-top-color:black;
+    text-align: center;
+}
+
+.copyright{
+    font-size: 10.5px;
+}
